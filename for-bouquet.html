@@ -1,0 +1,101 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>For Bouquet</title>
+        <style>
+            /* Flexbox for cards to display on the same line */
+            .order {
+                display: flex; /* Use flexbox for layout */
+                justify-content: space-between; /* Distribute cards evenly */
+                margin-bottom: 20px; /* Adds space below the card section */
+                gap: 20px; /* Adds space between cards */
+            }
+
+            /* Style for individual cards */
+            .card {
+                width: 30%; /* Set a percentage width so 3 cards fit in a row */
+                min-width: 250px; /* Ensure a minimum width for smaller screens */
+                margin: 10px 0; /* Margin to separate rows */
+                box-sizing: border-box; /* Ensure padding and borders are included in width */
+            }
+
+            /* Set a fixed height for card images */
+            .card-img-top {
+                height: 250px; /* Set to desired height */
+                object-fit: cover; /* Maintain aspect ratio while covering the area */
+            }
+        </style>
+    </head>
+    <body bgcolor="#D3D3D3">
+        <div class="order">
+            <div class="card">
+              <img src="./bouquet.img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ROMANTIC ROSE BOUQUET</h5>
+                <p class="card-text">A beautiful arrangement of fresh roses, perfect for expressing love and affection.</p><br>
+                <p><b>PRICE: 899 Rs</b></p>
+                <button><a href="#" class="btn btn-primary">Buy Now!</a></button>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./bouquet1.img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">LAVENDER ELEGANCE BOUQUET</h5>
+                <p class="card-text">A bouquet featuring delicate lavender blooms, ideal for any special occasion.</p><br>
+                <p><b>PRICE: 649 Rs</b></p>
+                <button><a href="#" class="btn btn-primary">Buy Now!</a></button>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./bouquet2.img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SUNFLOWER SUNSHINE BOUQUET</h5>
+                <p class="card-text">Brighten someone's day with this vibrant arrangement of sunflowers.</p><br>
+                <p><b>PRICE: 749 Rs</b></p>
+                <button><a href="#" class="btn btn-primary">Buy Now!</a></button>
+              </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="order">
+            <div class="card">
+              <img src="./bouquet3.img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">TULIP DELIGHT BOUQUET</h5>
+                <p class="card-text">A best-seller tulip bouquet, perfect for bringing joy and color to any event.</p><br>
+                <p><b>PRICE: 849 Rs</b></p>
+                <button><a href="#" class="btn btn-primary">Buy Now!</a></button>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./bouquet4.img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">PINK ROSE DREAM BOUQUET</h5>
+                <p class="card-text">A graceful arrangement of soft pink roses, symbolizing admiration and joy.</p><br>
+                <p><b>PRICE: 1299 Rs</b></p>
+                <button><a href="#" class="btn btn-primary">Buy Now!</a></button>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./bouquet5.img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">PEONY PASSION BOUQUET</h5>
+                <p class="card-text">A luxurious bouquet of peonies, perfect for making any occasion extra special.</p><br>
+                <p><b>PRICE: 2449 Rs</b></p>
+                <button><a href="#" class="btn btn-primary">Buy Now!</a></button>
+              </div>
+            </div>
+        </div>
+        <button class="btn btn-secondary m-3"><a href="code.html" style="color: white; text-decoration: none;">Back</a></button>
+
+    
+</body>
+</html>

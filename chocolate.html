@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolates</title>
+    <style>
+        /* Flexbox for cards to display on the same line */
+        .order {
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow cards to wrap if needed */
+            justify-content: space-between; /* Distribute cards evenly */
+            margin-bottom: 20px; /* Adds space below the card section */
+            gap: 20px; /* Adds space between cards */
+        }
+
+        /* Style for individual cards */
+        .card {
+            width: 45%; /* Set a percentage width so 2 cards fit in a row */
+            min-width: 250px; /* Ensure a minimum width for smaller screens */
+            margin: 10px 0; /* Margin to separate rows */
+            box-sizing: border-box; /* Ensure padding and borders are included in width */
+        }
+
+        /* Set a fixed height for card images */
+        .card-img-top {
+            height: 350px; /* Set to desired height */
+            object-fit: cover; /* Maintain aspect ratio while covering the area */
+        }
+    </style>
+</head>
+<body bgcolor="#F5F5DC">
+    <div class="order">
+        <div class="card">
+            <img src="./chocolate.img" class="card-img-top" alt="Chocolate Box">
+            <div class="card-body">
+                <h5 class="card-title">LUXURY CHOCOLATE BOX</h5>
+                <p class="card-text">A delightful selection of chocolates in pink and brown, perfect for gifting or indulging yourself.</p><br>
+                <p><b>PRICE: 999 Rs</b></p>
+                <button><a href="#" class="btn btn-primary">Buy Now!</a></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./chocolate1.img" class="card-img-top" alt="Ferrero Chocolate Bouquet">
+            <div class="card-body">
+                <h5 class="card-title">FERRERO ROCHER BOUQUET</h5>
+                <p class="card-text">An exquisite bouquet featuring Ferrero Rocher chocolates, ideal for expressing love and appreciation.</p><br>
+                <p><b>PRICE: 1499 Rs</b></p>
+                <button><a href="#" class="btn btn-primary">Buy Now!</a></button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <div class="order">
+        <div class="card">
+            <img src="./chocolate2.img" class="card-img-top" alt="Fruit and Nut Chocolate Box">
+            <div class="card-body">
+                <h5 class="card-title">FRUIT & NUT CHOCOLATE BOX</h5>
+                <p class="card-text">A delicious blend of rich chocolate filled with fruits and nuts, a perfect treat for chocolate lovers.</p><br>
+                <p><b>PRICE: 899 Rs</b></p>
+                <button> <a href="#" class="btn btn-primary">Buy Now!</a></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./chocolate3.img" class="card-img-top" alt="Cadbury Silk Chocolate Box">
+            <div class="card-body">
+                <h5 class="card-title">CADBURY SILK CHOCOLATE BOX</h5>
+                <p class="card-text">Indulge in the creamy richness of Cadbury Silk chocolates, perfect for any celebration.</p><br>
+                <p><b>PRICE: 799 Rs</b></p>
+                <button> <a href="#" class="btn btn-primary">Buy Now!</a></button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <button class="btn btn-secondary m-3"><a href="code.html" style="color: white; text-decoration: none;">Back</a></button>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luxury Hamper</title>
+        <style>
+            /* Flexbox for cards to display on the same line */
+            .order {
+                display: flex; /* Use flexbox for layout */
+                flex-wrap: wrap; /* Allow cards to wrap if needed */
+                justify-content: space-between; /* Distribute cards evenly */
+                margin-bottom: 20px; /* Adds space below the card section */
+                gap: 20px; /* Adds space between cards */
+            }
+
+            /* Style for individual cards */
+            .card {
+                width: 30%; /* Set a percentage width so 3 cards fit in a row */
+                min-width: 250px; /* Ensure a minimum width for smaller screens */
+                margin: 10px 0; /* Margin to separate rows */
+                box-sizing: border-box; /* Ensure padding and borders are included in width */
+            }
+
+            /* Set a fixed height for card images */
+            .card-img-top {
+                height: 250px; /* Set to desired height */
+                object-fit: cover; /* Maintain aspect ratio while covering the area */
+            }
+        </style>
+    </head>
+    <body bgcolor="#E6CCFF">
+        <div class="order">
+            <div class="card">
+              <img src="./luxury.img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">FARREOR ROSHER AND BOUQUET HAMPER</h5>
+                <p class="card-text">A delightful combination of Farreor Rosher chocolates and a beautiful bouquet, perfect for gifting or celebrating special moments.</p><br><p><b>PRICE: 2499 Rs</b></p>
+                <button><a href="#" class="btn btn-primary">Buy Now!</a></button>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./luxury2.img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">GOURMET DELIGHT HAMPER</h5>
+                <p class="card-text">A luxurious selection of gourmet snacks, chocolates, and fine wines, perfect for any occasion.</p><br><p><b>PRICE: 2999 Rs</b></p>
+                <button><a href="#" class="btn btn-primary">Buy Now!</a></button>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./luxury3.img" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">EXQUISITE FRUIT & FLOWER HAMPER</h5>
+                <p class="card-text">A beautiful assortment of fresh fruits and vibrant flowers, elegantly presented for a perfect gift.</p><br><p><b>PRICE: 1999 Rs</b></p>
+                <button> <a href="#" class="btn btn-primary">Buy Now!</a></button>
+              </div>
+            </div>
+        </div>
+<hr>
+<button class="btn btn-secondary m-3"><a href="code.html" style="color: white; text-decoration: none;">Back</a></button>
+</body>
+</html>
